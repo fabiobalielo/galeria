@@ -1,0 +1,257 @@
+/*
+* Amazium V1.3
+* Copyright 2012, Mike Ballan
+* www.amazium.co.uk
+*/
+/***** Screen 960px *****/
+.row 								{ margin:0 auto; width:960px; overflow:hidden; }
+.row .row 							{ padding:0 -16px 0 -16px; width:auto; display:inline-block; }
+
+.grid_1								{ width:80px;  padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_2 							{ width:160px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_3 							{ width:240px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_4 							{ width:320px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_5 							{ width:400px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_6 							{ width:480px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_7 							{ width:560px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_8 							{ width:640px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_9								{ width:720px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_10							{ width:800px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_11							{ width:880px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+.grid_12							{ width:960px; padding:0 16px 0 16px; overflow:hidden; float:left; display:inline; }
+
+.offset_1							{ margin-left:80px;  }
+.offset_2							{ margin-left:160px; }
+.offset_3 							{ margin-left:240px; }
+.offset_4 							{ margin-left:320px; }
+.offset_5 							{ margin-left:400px; }
+.offset_6 							{ margin-left:480px; }
+.offset_7 							{ margin-left:560px; }
+.offset_8 							{ margin-left:640px; }
+.offset_9							{ margin-left:720px; }
+.offset_10							{ margin-left:800px; }
+.offset_11							{ margin-left:880px; }
+
+.show-phone 						{ display:none    !important; }
+.show-tablet 						{ display:none 	  !important; }
+.show-screen						{ display:inherit !important; }
+
+.hide-phone							{ display:inherit !important; }
+.hide-tablet						{ display:inherit !important; }
+.hide-screen						{ display:none 	  !important; }
+
+
+/***** Sub Grids % *********/
+.sub_grid_1								{ width:10%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_2 							{ width:20%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_3 							{ width:30%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_4 							{ width:40%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_5 							{ width:50%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_6 							{ width:60%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_7 							{ width:70%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_8 							{ width:80%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_9								{ width:90%;  padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+.sub_grid_10							{ width:100%; padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+
+
+/***** Screen Bigger than 960px *****/
+@media only screen and (min-width:1200px) {
+	.row 								{ margin:0 auto; width:1200px; overflow:hidden; }
+	.row .row 							{ padding:0 -20px 0 -20px; width:auto; display:inline-block; }
+
+	.grid_1								{ width:100px;  padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_2 							{ width:200px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_3 							{ width:300px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_4 							{ width:400px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_5 							{ width:500px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_6 							{ width:600px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_7 							{ width:700px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_8 							{ width:800px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_9								{ width:900px; 	padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_10							{ width:1000px; padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_11							{ width:1100px; padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+	.grid_12							{ width:1200px; padding:0 20px 0 20px; overflow:hidden; float:left; display:inline; }
+
+	.offset_1							{ margin-left:100px; }
+	.offset_2							{ margin-left:200px; }
+	.offset_3 							{ margin-left:300px; }
+	.offset_4 							{ margin-left:400px; }
+	.offset_5 							{ margin-left:500px; }
+	.offset_6 							{ margin-left:600px; }
+	.offset_7 							{ margin-left:700px; }
+	.offset_8 							{ margin-left:800px; }
+	.offset_9							{ margin-left:900px; }
+	.offset_10							{ margin-left:1000px; }
+	.offset_11							{ margin-left:1100px; }
+
+	.show-phone 						{ display:none !important; }
+	.show-tablet 						{ display:none !important; }
+	.show-screen						{ display:inherit; }
+
+	.hide-phone							{ display:inherit !important; }
+	.hide-tablet						{ display:inherit !important; }
+	.hide-screen						{ display:none 	  !important; }
+}
+
+
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.row 								{ margin:0 auto; width:768px; overflow:hidden; }
+	.row .row 							{ padding:0 -14px 0 -14px; width:auto; display:inline-block; }
+
+	.grid_1								{ width: 64px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_2 							{ width:128px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_3 							{ width:192px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_4 							{ width:256px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_5 							{ width:320px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_6 							{ width:384px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_7 							{ width:448px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_8 							{ width:512px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_9								{ width:576px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_10							{ width:640px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_11							{ width:704px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+	.grid_12							{ width:768px; padding:0 14px 0 14px; overflow:hidden; float:left; display:inline; }
+
+	.offset_1							{ margin-left: 64px; }
+	.offset_2							{ margin-left:128px; }
+	.offset_3 							{ margin-left:192px; }
+	.offset_4 							{ margin-left:256px; }
+	.offset_5 							{ margin-left:320px; }
+	.offset_6 							{ margin-left:384px; }
+	.offset_7 							{ margin-left:448px; }
+	.offset_8 							{ margin-left:512px; }
+	.offset_9							{ margin-left:576px; }
+	.offset_10							{ margin-left:640px; }
+	.offset_11							{ margin-left:704px; }
+
+	.show-phone 						{ display:none 	  !important; }
+	.show-tablet 						{ display:inherit !important; }
+	.show-screen						{ display:none 	  !important; }
+
+	.hide-phone							{ display:inherit !important; }
+	.hide-tablet						{ display:none 	  !important; }
+	.hide-screen						{ display:inherit !important; }
+}
+
+
+
+/***** Phone (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+	.row 								{ margin:0 auto; width:300px; overflow:hidden; }
+	.row .row 							{ padding:0; width:auto; display:inline-block; }
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12							{ width:300px; padding:10px 0 0 0; overflow:hidden; float:left; display:inline; }
+
+	.offset_1,
+	.offset_2,
+	.offset_3,
+	.offset_4,
+	.offset_5,
+	.offset_6,
+	.offset_7,
+	.offset_8,
+	.offset_9,
+	.offset_10,
+	.offset_11							{ margin-left:0; }
+
+	.sub_grid_1,
+	.sub_grid_2,
+	.sub_grid_3,
+	.sub_grid_4,
+	.sub_grid_5,
+	.sub_grid_6,
+	.sub_grid_7,
+	.sub_grid_8,
+	.sub_grid_9,
+	.sub_grid_10,
+	.sub_grid_11,
+	.sub_grid_12						{ width:50%; padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+	.subGrid_mobile						{ width: 100%; display: block; padding: 0}
+
+	.show-phone 						{ display:inherit !important; }
+	.show-tablet 						{ display:none 	  !important; }
+	.show-screen						{ display:none 	  !important; }
+
+	.hide-phone							{ display:none 	  !important; }
+	.hide-tablet						{ display:inherit !important; }
+	.hide-screen						{ display:inherit !important; }
+}
+
+
+
+
+/***** Phone (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.row 								{ margin:0 auto; width:456px; overflow:hidden; }
+	.row .row 							{ padding:0; width:auto; display:inline-block; }
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12							{ width:456px; padding:10px 0 0 0; overflow:hidden; float:left; display:inline; }
+
+	.sub_grid_1,
+	.sub_grid_2,
+	.sub_grid_3,
+	.sub_grid_4,
+	.sub_grid_5,
+	.sub_grid_6,
+	.sub_grid_7,
+	.sub_grid_8,
+	.sub_grid_9,
+	.sub_grid_10,
+	.sub_grid_11,
+	.sub_grid_12						{ width:50%; padding:0 1.66% 0 1.66%; overflow:hidden; float:left; display:inline; }
+	.subGrid_mobile						{ width: 100%; display: block; padding: 0}
+
+	.show-phone 						{ display:inherit !important; }
+	.show-tablet 						{ display:none 	  !important; }
+	.show-screen						{ display:none 	  !important; }
+
+	.hide-phone							{ display:none    !important; }
+	.hide-tablet						{ display:inherit !important; }
+	.hide-screen						{ display:inherit !important; }
+}
+
+/***** Clean up *****/
+.container:after 					{ content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after 							{ content:'\0020'; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+.row:after,	.clearfix:after 		{ clear:both; }
+.row,
+.clearfix 							{ zoom:1; }
+.clear 								{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;	}
+
+.imgMobile {width: 100%; height: auto;}
+.imgMobileH {width: auto; height: 100%;}
+
+.alphaPadding						{ padding-left:  0!important}
+.omegaPadding						{ padding-right: 0!important}
+
+.alphaMargin						{ margin-left:  0!important}
+.omegaMargin						{ margin-right: 0!important}
+
+.noPadding							{padding: 0!important}
+.noMargin							{margin: 0!important}

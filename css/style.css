@@ -1,0 +1,793 @@
+﻿/**************************************
+	SITE: www.joy.com.br
+	AGENCIA: Pubblicite Comunicação
+	AUTHOR: Everton de P. Gouveia
+**************************************/
+
+/**************************************
+	CSS RESET
+**************************************/
+html, body, div, span, input, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{ font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; border: none; text-decoration: none }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{ display: block }
+body{ line-height: 1 }
+html, body{ height: 100%; }
+blockquote, q{ quotes: none }
+blockquote:before, blockquote:after, q:before, q:after{	content: none }
+table{ border-collapse: collapse; border-spacing: 0 }
+em{ font-style: italic }
+strong{ font-weight: 700 }
+*{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+/* forms */
+label{ display: block; cursor: pointer; margin-bottom: 3px }
+button{ border: none; cursor: pointer }
+input, textarea, select{ width: 100%; border: 1px solid #cccccc; padding: 3px 5px; font-size: 12px; background: #ffffff }
+input:focus, textarea:focus, select:focus{ border-color: #990000 }
+input[type="checkbox"], input[type="radio"] { width: 13px; height: 13px; float: left; cursor: pointer }
+textarea{ border: 1px solid #cccccc }
+select{ border: 1px solid #cccccc }
+:focus, :active{ outline: none }
+::-webkit-input-placeholder { font-size: 11px; line-height: 16px }
+::-moz-placeholder { font-size: 11px; line-height: 16px }
+:-ms-input-placeholder { font-size: 11px; line-height: 16px }
+input:-moz-placeholder { font-size: 11px; line-height: 16px }
+li { list-style: none; }
+
+
+
+/***************************************
+	BEGIN SITE STYLE
+***************************************/
+body{ font-family: 'Arial', sans-serif; color: #666666; font-size: 100%; overflow: hidden; }
+::-moz-selection{ background: #990000; color: #ffffff; text-shadow: none }
+::selection{ background: #990000; color: #ffffff; text-shadow: none }
+
+.bg_full_home	    { background: url(../img/bg/bg-foto1_2x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_marca	    { background: url(../img/bg/bg-foto2_2x.jpg) no-repeat top center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bg_full_abrecolecao{ background: url(../img/bg/bg-darkgrade.jpg) repeat fixed; }
+.bg_full_colecao  	{ background: url(../img/bg/bg-foto3_2x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_contato  	{ background: url(../img/bg/bg-foto5_2x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_beach	  	{ background: url(../img/bg/bg-foto6_2x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_tanamidia	{ background: url(../img/bg/bg-tanamidia.jpg) repeat fixed; }
+.bg_full_campanha 	{ background: url(../img/bg/bg-grade.jpg) repeat fixed; }
+.bg_full_catalogo 	{ background: #FFF fixed; }
+
+
+h1{ }
+h2{ }
+h3{ }
+h4{ }
+h5{ }
+h6{ }
+
+.content{ padding: 40px 0 }
+.absolute{ position: absolute }
+
+.btn{ }
+.btn:hover{ }
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Dektop Antigo 1024px                                              */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*************************************** HEADER ***************************************/
+
+#header{ width: 100%; height: 100px; background: url(../img/bg/bg-menu.png) repeat; bottom: 10px; position: absolute; z-index: 999997;}
+
+.logo{ cursor: pointer; display: inline-block; }
+
+.grid_logo{ margin-top: 6px; text-align: center; }
+
+.bt-menu{ margin-top: 52px; }
+.main-menu{ text-align: center; }
+.main-menu li{ height: 35px; margin: 0 6px; font-family: 'Cherry Swash', cursive; display: inline-block; }
+	.main-menu li:hover > .link{ color: #C4E4E4; }
+	.main-menu .link{ padding: 0 8px; border-bottom: 1px solid #c4e4e4; font-size: 20px; color: #4b2416; font-weight: 300; text-shadow: 0px 1px 2px #eba966; filter: dropshadow(color=#eba966, offx=0, offy=1); display: inline-block; position: relative; }
+.ball{ width: 8px; height: 8px; bottom: -4px; background-color: #c4e4e4; border-radius: 8px; display: block; position: absolute; }
+	.ball_l{ left: -4px; }
+	.ball_r{ right: -4px; }
+
+.grid_grade{ width: 160px; height: 74px; background: url(../img/bg/bg-social.png) no-repeat; margin-top: 6px; text-align: center; }
+	.grid_grade div{ width: 120px; margin: 0 auto; padding-top: 7px;}
+
+.content_social{   }
+	.grade-social{ display: inline-block; text-align: center; }
+		.grade-social-geral{ width: 40px; height: 30px; background-image: url(../img/sprite.png); display: inline-block; margin-left: -4px; }
+		.grade-social-p{ background-position: -0px -6px; border-bottom: 1px solid #4b2416; border-right: 1px solid #4b2416; }
+			.grade-social-p:hover { background-position: -0px -41px; }
+		.grade-social-f{ background-position: -39px -6px; border-bottom: 1px solid #4b2416; border-right: 1px solid #4b2416; }
+			.grade-social-f:hover { background-position: -39px -41px; }
+		.grade-social-t{ background-position: -77px -6px; border-bottom: 1px solid #4b2416; }
+			.grade-social-t:hover { background-position: -77px -41px; }
+		.grade-social-y{ background-position: -123px -3px; border-right: 1px solid #4b2416; margin-top: -2px; }
+			.grade-social-y:hover { background-position: -123px -38px; }
+		.grade-social-i{ background-position: -155px -3px; margin-top: -2px; }
+			.grade-social-i:hover { background-position: -155px -38px; }
+
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** A MARCA ***************************************/
+#scrollbar1{ height: 490px; margin-right: 10%; background-color: #FFF; float: right; }
+#scrollbar1 .viewport{ width: 90%; height: 430px; margin-top: 20%; overflow: hidden; position: relative; }
+#scrollbar1 .overview{ list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+	#scrollbar1 .overview > h3 { font-family: 'Cherry Swash', cursive; font-size: 20px; color: #4c251b; }
+	#scrollbar1 .overview > p { font-family: Tahoma, sans-serif; font-size: 14px; color: #4c251b; }
+#scrollbar1 .scrollbar{ width: 10px; height: 432px !important; margin-top: 20%; background: transparent url(../images/scrollbar/bg-scrollbar-track-y-1.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; }
+#scrollbar1 .track{ width:10px; height: 432px !important; margin-top: 3px; padding: 0 1px; background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y-1.png) no-repeat 0 100%; position: relative; }
+#scrollbar1 .thumb{ width: 8px; height: 20px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end{ width: 8px; height: 5px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 0; overflow: hidden; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*************************************** /a marca **************************************/
+
+
+
+/*************************************** COLEÇÃO ***************************************/
+.abrecolecao header { background-color: #FFF !important; }
+
+.abrecolecao .item { width: 172px; height: 172px; background-size: 100% 100%; display: inline-block; position: absolute; z-index: 70; }
+.abrecolecao .item-colecao { left: 10%; top: 23%;background-image: url(../img/bg/vector-colecao.png); }
+.abrecolecao .item-lookf   { left: 42%; top: 23%;background-image: url(../img/bg/vector-lookbookfem.png); }
+.abrecolecao .item-lookm   { left: 70%; top: 23%;background-image: url(../img/bg/vector-lookbookmas.png); }
+
+.abrecolecao .foto-bg{ z-index: 50; }
+.abrecolecao .sombra { z-index: 60; opacity: 0.7 }
+
+.box-marca{ margin-top: 80px; }
+
+#scrollbar2{ width: 90%; height: 196px; margin: 10% 5% 0 5%; float: left; }
+#scrollbar2 .viewport{ width: 93%; height: 195px; overflow: hidden; position: relative; }
+#scrollbar2 .overview{ list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+	#scrollbar2 .overview > h3 { font-family: 'Cherry Swash', cursive; font-size: 20px; color: #4c251b; }
+	#scrollbar2 .overview > p { font-family: Tahoma, sans-serif; font-size: 14px; color: #4c251b; }
+#scrollbar2 .scrollbar{ width: 10px; /*height: 195px !important;*/ background: transparent url(../images/scrollbar/bg-scrollbar-track-y-2.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; }
+#scrollbar2 .track{ width:10px; /*height: 187px !important;*/ margin-top: 1px; padding: 0 1px; background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y-2.png) no-repeat 0 100%; position: relative; }
+#scrollbar2 .thumb{ width: 8px; height: 70px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-2.png) no-repeat 50% 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar2 .thumb .end{ width: 8px; height: 5px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-2.png) no-repeat 50% 0; overflow: hidden; }
+#scrollbar2 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*************************************** /coleção **************************************/
+
+
+/*************************************** CAMPANHA **************************************/
+.campanha header { background-color: #FFF !important; }
+
+.campanha .item { width: 200px; height: 197px; background-size: 100% 100%; display: inline-block; position: absolute; z-index: 70; }
+.campanha .item-catalogo  { left: 12%; top: 22%;background-image: url(../img/bg/vector-catalogo.png); }
+.campanha .item-makingof  { left: 50%; top: 42%;background-image: url(../img/bg/vector-makingof.png); }
+.campanha .item-tanamidia { left: 59%; top: -2%;background-image: url(../img/bg/vector-tanamidia.png); }
+
+
+.campanha .foto-bg{ z-index: 50; }
+.campanha .sombra { z-index: 60; opacity: 0.7 }
+/*************************************** /campanha *************************************/
+
+
+/*************************************** MAKING OF *************************************/
+.makingof{ height:100%; margin-top: 5%; text-align: center; }
+.video   { width: 100%; height: 85%; }
+/*************************************** /making of ************************************/
+
+
+/*************************************** CONTATO ***************************************/
+.contato{ height: 570px; margin-top: 5%; background-image: url(../img/bg/bg-formulario_1x.png); background-size: 100% 100%; }
+
+.contato label{ font-family: 'Cherry Swash', cursive; text-align: right; line-height: 32px; color: #fadbdd; }
+
+.contato form{ margin-top: 40px; }
+
+.contato form div{ margin-bottom: 5px; }
+
+.contato input[type='text']{ height: 32px; color: #FFF; padding: 3px 5px !important; background: rgba(0, 0, 0, 0); border: 0; border-bottom: 1px solid #FFF; font-size: 15px; }
+
+.contato textarea{ height: 90px; padding: 3px 5px !important; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border-right: 4px solid #FBDBDF; border-bottom: 4px solid #FBDBDF; margin-bottom: 7px; font-size: 15px; }
+
+.contato input[type='submit']{ width: 84px; height: 36px; font-size: 14px; color: #FBDBDF; background-color: #4B2416; text-align: center; text-transform: uppercase; text-indent: 0; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border: 1px solid #FBDBDF; border-right: 4px solid #FBDBDF; border-bottom: 4px solid #FBDBDF; cursor: pointer; }
+.contato input[type='submit']:hover{ color: #FFF; border: 1px solid #FFF; border-right: 4px solid #FFF; border-bottom: 4px solid #FFF; cursor: pointer; }
+
+.radioSexo{ color: #fadbdd; text-align: right; margin-bottom: 0!important; padding-bottom: 0!important; line-height: 32px; }
+.radioSexo label{  }
+.radioSexo input[type='radio']{ color: transparent; margin-right: 5px; line-height: 32px; cursor: pointer; }
+.centralizaRadio{ line-height: 14px !important; margin-top: 10px; font-size: 17px; }
+.checkNews label{ text-align: left; margin-top: 10px; line-height: 14px; color: #fadbdd; }
+.inputNews { margin-right: 12px; }
+
+#tipo_pessoa{ margin: 0 0 10px 25px; height: 32px; }
+#tipo_pessoa input { display: none}
+#tipo_pessoa strong{ display: inline;color:#299361; margin-right: 10px; line-height: 21px; }
+#tipo_pessoa .list { margin-bottom: 2px; display: inline; list-style: none }
+#tipo_pessoa .list .l1{ font-family: 'baar_sophiaregular', Arial, Helvetica, sans-serif; color: #fff !important; line-height: 32px; text-align: right}
+#tipo_pessoa .list li { display: inline-block}
+#tipo_pessoa label{ display: inline-block; padding: 0 10px; color: #FBDBDF; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; text-align: center; padding: 1px 4px 4px 1px; background-color: #FBDBDF; }
+#tipo_pessoa span{ background-color: #4b2416; display: inline-block; border-radius: 6px; padding: 5px; }
+
+#tipo_pessoa .selecionado{ color: #FFF; background-color: #FFF; }
+
+
+#divPreErro { text-align: right; margin-right: 32%; margin-top: -6px; color: #FF9191; }
+
+/*************************************** /contato *************************************/
+
+
+
+/*************************************** BEACH ***************************************/
+.logo-beach    { margin-top: 50px; margin-left: 20%; }
+.menu-beach    { height: 181px; background: url(../img/bg/bg-menu-jb_2x.png) no-repeat; }
+	.menu-beach ul { margin-top: 60px; margin-left: 29%; }
+.menu-feminino , .menu-masculino { height: 60px; background: url(../img/sprite.png) no-repeat; }
+.menu-feminino { width: 206px; background-position: 16px -99px; }
+.menu-feminino:hover { background-position: -4px -167px; }
+.menu-masculino{ width: 232px; background-position: 15px -244px; }
+.menu-masculino:hover{ width: 232px; background-position: -5px -310px }
+.openLook{ display: inline-block; height: 100%; width: 100%; }
+
+.corpo-jb{ height: 100%; background: url(../img/bg/bg-linha-jb.png) repeat-y; }
+.corpo-jb-linha{ width: 2px; height: 100px;  display: inline-block; margin-right: 38px; }
+
+
+#scrollbar3{ height: 580px; margin-left: 9%; background-color: rgba(0, 0, 0, 0.33); float: left; margin-top: 30px; }
+#scrollbar3 .viewport{ width: 90%; height: 440px; margin-top: 5%; overflow: hidden; position: relative; }
+#scrollbar3 .overview{ list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+	#scrollbar3 .overview > h3 { font-family: 'Cherry Swash', cursive; font-size: 20px; color: #4c251b; }
+	#scrollbar3 .overview > p  { font-family: Tahoma, sans-serif; font-size: 15px; color: #FFFFFF; line-height: 20px; }
+#scrollbar3 .scrollbar{ width: 10px; /*height: 432px !important;*/ margin-top: 5%; background: transparent url(../images/scrollbar/bg-scrollbar-track-y-3.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; }
+#scrollbar3 .track{ width:10px; /*height: 432px !important; */ margin-top: 3px; padding: 0 1px; background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y-3.png) no-repeat 0 100%; position: relative; }
+#scrollbar3 .thumb{ width: 8px; height: 20px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar3 .thumb .end{ width: 8px; height: 5px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 0; overflow: hidden; }
+#scrollbar3 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*************************************** /beach **************************************/
+
+/*************************************** FOOTER ***************************************/
+#footer{ width: 100%; height: 120px; background-color: #c4e4e2; position: absolute; bottom: -110px; -webkit-box-shadow: inset 0px 1px 5px 0px rgba(27, 107, 103, 1); box-shadow: inset 0px 1px 5px 0px rgba(27, 107, 103, 1); z-index: 999998; }
+	.seta-footer{ width: 48px; height: 16px; background-image: url(../img/sprite.png); background-color: transparent; position: absolute; top: -9px; left: 48%; margin-left: -10px; }
+	.inativo .seta-footer{ background-position: 150px -77px; }
+	.inativo .seta-footer:hover{ background-position: 105px -77px; }
+	.ativo .seta-footer{ background-position: -5px -77px; }
+	.ativo .seta-footer:hover{ background-position: -54px -77px; }
+
+	.mrlogo{ height: 43px; margin-top: 42px; float: left; padding: 0; }
+	.menu-footer-top{ width: 100%; height: 57px; padding: 20px 0; float: left; text-align: center; }
+		.menu-footer-top > li  { display: inline; color: #4c251b; font-size: 9px; padding: 0 3%; border-right: 1px solid #4c251b; }
+		.menu-footer-top > li a{color: #4c251b; font-size: 10px; } 
+		.menu-footer-top > li a:hover{color: #b0753b; }
+		.first-footer-top{ padding-left: 0 !important; }
+		.last-footer-top { padding-right: 0 !important; border-right: none !important; }
+	.menu-footer-bottom{ width: 100%; padding-left: 3.6%; float: left; border-left: 1px solid #579A97; border-right: 1px solid #579A97; }
+		.menu-footer-bottom > li{ display: inline; margin-right: 4.3%; padding: 0 3.66% 0 0; border-right: 1px solid #579A97; }
+		.menu-footer-bottom > li > a:hover{ opacity: 0.7; }
+		.last-footer-bottom { border-right: none !important; margin: 0 !important; }
+
+	.mrgroup{ float: left; padding: 10px 0 0 0; }
+		.mrgroup > li{ display: block; border-bottom: 1px solid #579A97; text-align: center; margin-top: 10px; }
+		.mrgroup > li > a:hover{ opacity: 0.7; }
+		.mrgroup .imgMobile-MR { width: 80%; height: auto; }
+		.mrgroup .imgMobile-MV { width: 85%; height: auto; }
+		.mrgroup .imgMobile-Z  { width: 65%; height: auto; }
+/*************************************** /footer *************************************/
+
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Desktop Atual acima de 1200px                                     */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media only screen and (min-width:1200px) {
+
+/*************************************** HEADER ***************************************/
+.bg_full_home	 { background: url(../img/bg/bg-foto1_1x.jpg) no-repeat top center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bg_full_marca	 { background: url(../img/bg/bg-foto2_1x.jpg) no-repeat top center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bg_full_colecao { background: url(../img/bg/bg-foto3_1x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_contato { background: url(../img/bg/bg-foto5_1x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.bg_full_beach	 { background: url(../img/bg/bg-foto6_1x.jpg) no-repeat top center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+
+.bt-menu { margin-top: 52px; }
+.main-menu .link{ font-size: 28px; }
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** A MARCA ***************************************/
+#scrollbar1{ height: 510px; margin-right: 10%; background-color: #FFF; float: right; }
+#scrollbar1 .viewport{ width: 90%; height: 430px; margin-top: 20%; overflow: hidden; position: relative; }
+#scrollbar1 .overview{ list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+	#scrollbar1 .overview > h3{ font-family: 'Cherry Swash', cursive; font-size: 20px; color: #4c251b; }
+	#scrollbar1 .overview > p { font-family: Tahoma, sans-serif; font-size: 14px; color: #4c251b; }
+#scrollbar1 .scrollbar{ width: 10px; height: 432px !important; margin-top: 20%; background: transparent url(../images/scrollbar/bg-scrollbar-track-y-1.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; }
+#scrollbar1 .track{ width:10px; height: 432px !important; margin-top: 3px; padding: 0 1px; background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y-1.png) no-repeat 0 100%; position: relative; }
+#scrollbar1 .thumb{ width: 8px; height: 20px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end{ width: 8px; height: 5px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-1.png) no-repeat 50% 0; overflow: hidden; }
+#scrollbar1 .disable   { display: none; }
+.noSelect{ user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*************************************** /a marca ***************************************/
+
+
+/*************************************** COLEÇÃO ***************************************/
+.abrecolecao .item { width: 225px; height: 225px; }
+.abrecolecao .item-colecao { left: 10%; top: 23%;background-image: url(../img/bg/vector-colecao.png); }
+.abrecolecao .item-lookf   { left: 44%; top: 23%;background-image: url(../img/bg/vector-lookbookfem.png); }
+.abrecolecao .item-lookm   { left: 70%; top: 23%;background-image: url(../img/bg/vector-lookbookmas.png); }
+
+
+.box-marca{ margin-top: 80px; }
+
+#scrollbar2{ width: 90%; height: 195px; margin: 10% 5% 0 5%; float: left; }
+#scrollbar2 .viewport{ width: 93%; height: 195px; overflow: hidden; position: relative; }
+#scrollbar2 .overview{ list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+	#scrollbar2 .overview > h3 { font-family: 'Cherry Swash', cursive; font-size: 20px; color: #4c251b; }
+	#scrollbar2 .overview > p { font-family: Tahoma, sans-serif; font-size: 14px; color: #4c251b; }
+#scrollbar2 .scrollbar{ width: 10px; /*height: 195px !important;*/ background: transparent url(../images/scrollbar/bg-scrollbar-track-y-2.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; }
+#scrollbar2 .track{ width:10px; /*height: 187px !important;*/ margin-top: 1px; padding: 0 1px; background: transparent url(../images/scrollbar/bg-scrollbar-trackend-y-2.png) no-repeat 0 100%; position: relative; }
+#scrollbar2 .thumb{ width: 8px; height: 20px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-2.png) no-repeat 50% 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar2 .thumb .end{ width: 8px; height: 5px; background: transparent url(../images/scrollbar/bg-scrollbar-thumb-y-2.png) no-repeat 50% 0; overflow: hidden; }
+#scrollbar2 .disable   { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*************************************** /coleção **************************************/
+
+
+/*************************************** CATALOGO **************************************/
+.catalogo #header { bottom: -100px; }
+
+.menu-catalogo    { width: 100%; height: 50px; background: url(../img/bg/bg-menu.png) repeat; bottom: 0px; position: absolute; z-index: 999997; }
+	.l-arrow      { width: 20px; height: 25px; display: block; background: url(../img/sprite.png) 36px -6px; float: right; margin-top: 15px; }
+	.l-arrow:hover{ opacity: 0.7; }
+	.r-arrow      { width: 20px; height: 25px; display: block; background: url(../img/sprite.png) 36px -38px; float: left; margin-top: 15px; }
+	.r-arrow:hover{ opacity: 0.7; }
+	.referencias  { font-family: Tahoma, sans-serif; font-size: 14px; color: #4c251b; text-align: center; margin-top: 20px; }
+	.up           { width: 31px; height: 31px; display: block; background: url(../img/sprite.png) 36px -68px; float: left; margin-top: 13px; }
+	.up:hover     { background-position: 36px -108px; }
+
+.b2{ height: 50px; background-color: blue; }
+/*************************************** /catalogo *************************************/
+
+
+/*************************************** CAMPANHA **************************************/
+.campanha .item { width: 259px; height: 255px; }
+
+.campanha .item-catalogo  { left: 19%; top: 23%;background-image: url(../img/bg/vector-catalogo.png); }
+.campanha .item-makingof  { left: 50%; top: 42%;background-image: url(../img/bg/vector-makingof.png); }
+.campanha .item-tanamidia { left: 59%; top: -2%;background-image: url(../img/bg/vector-tanamidia.png); }
+/*************************************** /campanha *************************************/
+
+
+/*************************************** MAKING OF *************************************/
+.makingof{ height:100%; margin-top: 5%; text-align: center; }
+.video   { width: 100%; height: 85%; }
+/*************************************** /making of ************************************/
+
+
+/*************************************** BEACH ***************************************/
+.menu-beach ul{ margin-left: 22.5%; }
+/*************************************** /beach **************************************/
+
+
+/*************************************** FOOTER ***************************************/
+.menu-footer-top > li  { display: inline; color: #4c251b; font-size: 13px; padding: 0 3%; border-right: 1px solid #4c251b; }
+.menu-footer-top > li a{color: #4c251b; font-size: 13px; } 
+.mrgroup{ padding: 0 !important; }
+/*************************************** /footer *************************************/
+
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Tablets em modo Paisagem                                          */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/*************************************** HEADER ***************************************/
+.grid_logo{ width: 160px; height: 68px; }
+.main-menu .link{ font-size: 14px; }
+.bt-menu{ margin-top: 35px; }
+
+.grid_grade{ width: 95px; height: 67px; background: url(../img/bg/bg-social-menor.png); margin-top: 6px; text-align: center; }
+	.grid_grade div{ width: 96px; margin: 0 auto; padding-top: 5px;}
+	.grade-social-geral{ width: 32px; }
+		.grade-social-p{ background-position: -3px -6px; }
+		.grade-social-p:hover{ background-position: -3px -41px; }
+	.grade-social-f{ background-position: -42px -6px; border-bottom: 1px solid #4b2416; border-right: 1px solid #4b2416; }
+		.grade-social-f:hover{ background-position: -42px -41px; }
+	.grade-social-t{ background-position: -80px -6px; border-bottom: 1px solid #4b2416; }
+		.grade-social-t:hover{ background-position: -80px -41px; }
+	.grade-social-y{ background-position: -125px -3px; border-right: 1px solid #4b2416; margin-top: -2px; }
+		.grade-social-y:hover{ background-position: -125px -38px; }
+	.grade-social-i{ background-position: -160px -3px; margin-top: -2px; }
+		.grade-social-i:hover{ background-position: -160px -38px; }
+	.content_social{ width: 97px !important; }
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** COLEÇÃO ***************************************/
+.abrecolecao .item-lookf{ left: 40%; }
+
+#scrollbar2 .overview > h3{ font-size: 18px; }
+#scrollbar2 .overview > p { font-size: 12px; }
+/*************************************** /coleção **************************************/
+
+/*************************************** CAMPANHA **************************************/
+.campanha .item-catalogo{ left: 10%; }
+/*************************************** /campanha *************************************/
+
+/*************************************** CONTATO ***************************************/
+.centralizaRadio{ line-height: 14px !important; margin-top: 10px; font-size: 13px; }
+.contato label  { text-align: left; }
+.radioSexo      { text-align: left; }
+/*************************************** /contato *************************************/
+
+
+/*************************************** BEACH ***************************************/
+.ajusteBeach   { width: 393px !important; }
+.menu-feminino { margin-left: 30px; }
+.menu-masculino{ margin-left: 30px; }
+/*************************************** /beach **************************************/
+
+
+/*************************************** FOOTER ***************************************/
+.menu-footer-top > li  { display: inline; color: #4c251b; font-size: 8px; padding: 0 3%; border-right: 1px solid #4c251b; }
+.menu-footer-top > li a{color: #4c251b; font-size: 8px; } 
+/*************************************** /footer *************************************/
+
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Smartphones no modo Paisagem e Tablets Menores                    */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*************************************** HEADER ***************************************/
+#header         { position: absolute; bottom: 0 !important; }
+.grid_grade     { display: none; }
+.ball           { display: none; }
+.main-menu .link{ border: none; }
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** A MARCA ***************************************/
+#scrollbar1{ height: 440px; margin: 0 auto; margin-top: 15%; background-color: rgba(255, 255, 255, 0.8); }
+#scrollbar1 .viewport { width: 80%; height: 400px; margin: 8%; }
+#scrollbar1 .scrollbar{ display: none; }
+#scrollbar1 .overview { position: static; }
+/*************************************** / a marca *************************************/
+
+
+/*************************************** COLEÇÃO ***************************************/
+.capa-colecao{ height: 127px; background: url(../img/bg/m-item-colecao1_2x.jpg); margin-top: 20px; }
+.capa-lookf  { height: 127px; background: url(../img/bg/m-item-colecao2_2x.jpg); margin-top: 5px; }
+.capa-lookm  { height: 127px; background: url(../img/bg/m-item-colecao3_2x.jpg); margin-top: 5px; }
+
+.link-abrecolecao { height: 127px; display: inline-block; }
+
+.box-marca{ margin-top: 20px; text-align: center; }
+.box-marca > img{ width: 330px; }
+
+#scrollbar2{ background-color: rgba(255, 255, 255, 0.8); text-align: left; }
+#scrollbar2 .overview{ padding: 15px; }
+/*************************************** /coleção **************************************/
+
+
+/*************************************** CAMPANHA **************************************/
+.capa-tanamidia{ height: 148px; background: url(../img/bg/m-item-campanha1_2x.jpg); margin-top: 20px; }
+.capa-catalogo { height: 148px; background: url(../img/bg/m-item-campanha2_2x.jpg); margin-top: 5px; }
+.capa-makingof { height: 148px; background: url(../img/bg/m-item-campanha3_2x.jpg); margin-top: 5px; }
+
+.link-campanha { height: 148px; display: inline-block; }
+
+/*************************************** /campanha *************************************/
+
+
+
+/*************************************** CONTATO ***************************************/
+.ajusteMobile    { width: 90%; margin: 0 5%; display: block; }
+.contato         { height: 1070px; background: url(../img/bg/bg-formulario_2x.png) no-repeat; margin-top: 2%; }
+.contato form    { margin-top: 15px; }
+.contato input[type='text']{ height: 30px; margin-bottom: 20px; }
+.contato label   { text-align: left; margin-left: 15px; line-height: 17px; }
+.contato textarea{ margin-top: 15px; }
+
+.inputNews       { margin-left: 64px; margin-top: 2px; }
+.checkNews label { margin-top: 0px }
+.radioSexo		 { text-align: left; }
+
+.btEnviar{ text-align: center; margin-top: 10px; border-color: #FBBF80; }
+
+.ajusteMobileInterno    { width: 100%; margin: 0; padding: 0; display: block; }
+.ajusteMobileInternoCep { margin-left: -5px !important; }
+
+#tipo_pessoa      { margin: 0 0 0 100px; }
+#tipo_pessoa ul   { width: 60%; }
+#tipo_pessoa label{ margin-bottom: 15px; }
+
+#divErro{ text-align: center; margin-top: 10px; }
+
+.centralizaRadio  { margin-left: -5px !important; margin-bottom: 25px; }
+/*************************************** /contato *************************************/
+
+
+/*************************************** BEACH ***************************************/
+.logo-beach{ margin-top: 10px; }
+#scrollbar3{ width: 393px; margin-top: 10px; margin-left: 3%; }
+#scrollbar3 .viewport{ margin-left: 5%; }
+
+.menu-beach ul{ margin-top: 50px; margin-left: 32%; }
+/*************************************** /beach **************************************/
+
+
+/*************************************** FOOTER ***************************************/
+body { overflow-y: inherit; overflow-x: hidden;}
+
+.mrlogo{ height: 98px; margin-top: 20px; padding: 0; }
+
+#footer{ display: none; }
+
+/*************************************** /footer *************************************/
+
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Smartphones no modo retrato                                       */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+/*************************************** HEADER ***************************************/
+#header			{ bottom: 0; }
+.grid_grade     { display: none; }
+.ball           { display: none; }
+.main-menu .link{ border: none; }
+.bg_full_contato{ background-image: none; background-color: #F1EAE4; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** A MARCA ***************************************/
+#scrollbar1{ height: 500px; margin: 0 auto; margin-top: 15%; background-color: rgba(255, 255, 255, 0.8); }
+#scrollbar1 .viewport { width: 80%; height: 442px; margin: 8%; }
+#scrollbar1 .scrollbar{ display: none; }
+#scrollbar1 .overview { position: static; }
+/*************************************** / a marca *************************************/
+
+
+/*************************************** COLEÇÃO ***************************************/
+.capa-colecao{ width: 280px !important; height: 117px; background: url(../img/bg/m-item-colecao1_1x.jpg); margin-top: 10px; }
+.capa-lookf  { width: 280px !important; height: 117px; background: url(../img/bg/m-item-colecao2_1x.jpg); margin-top: 5px; }
+.capa-lookm  { width: 280px !important; height: 117px; background: url(../img/bg/m-item-colecao3_1x.jpg); margin-top: 5px; }
+
+.link-abrecolecao { height: 127px; display: inline-block; }
+
+.box-marca{ margin-top: 5px; text-align: center; }
+.box-marca > img{ width: 330px; }
+
+#scrollbar2{ background-color: rgba(255, 255, 255, 0.5); text-align: left; }
+#scrollbar2 .overview{ padding: 15px; }
+/*************************************** /coleção **************************************/
+
+
+/*************************************** CAMPANHA **************************************/
+.capa-tanamidia{ width: 280px !important; height: 117px; background: url(../img/bg/m-item-campanha1_1x.jpg); margin-top: 20px; }
+.capa-catalogo { width: 280px !important; height: 117px; background: url(../img/bg/m-item-campanha2_1x.jpg); margin-top: 5px; }
+.capa-makingof { width: 280px !important; height: 117px; background: url(../img/bg/m-item-campanha3_1x.jpg); margin-top: 5px; }
+
+.link-campanha { height: 117px; display: inline-block; }
+/*************************************** /campanha *************************************/
+
+
+
+
+/*************************************** CONTATO ***************************************/
+#tipo_pessoa .list    { width: 90%; margin: 0 0 0px 10px; }
+#tipo_pessoa .list li { margin-right: 30px; }
+
+.contato		  { height: 1111px; background-image: url(../img/bg/bg-formulario_2x.png); }
+.contato form 	  { margin-top: 20px; }
+.contato form div { margin-bottom: 20px; }
+.contato textarea { margin-bottom: 0px; }
+.contato label    { text-align: left; }
+.checkNews label  { margin-top: 0px; }
+.checkNews        { margin-top: -20px !important; } 
+.btEnviar 		  { text-align: center; margin-bottom: 0px !important; }
+#divPreErro 	  { text-align: center; }
+
+.ajusteMobile{ width: 90%; margin: 0 5%; display: block; }
+.ajusteMobileInterno{ width: 100%; text-align: left; }
+
+/*************************************** /contato *************************************/
+
+
+/*************************************** BEACH ****************************************/
+.logo-beach{ margin-top: 5px; }
+.menu-beach{ background-image: url(../img/bg/bg-menu-jb_2x.png); background-size: 100% 100%; }
+
+.menu-feminino { height: 49px; width: 206px; background-position: 41px -365px; }
+.menu-feminino:hover { width: 206px; background-position: 25px -417px; }
+.menu-masculino{ width: 232px; background-position: 41px -466px; }
+.menu-masculino:hover{ width: 232px; background-position: 26px -517px; }
+
+#scrollbar3{ height: 1163px; padding-left: 12px; }
+#scrollbar3 .viewport{ overflow: initial; }
+#scrollbar3 .overview{ position: initial; }
+
+/*************************************** /beach ***************************************/ 
+
+
+/*************************************** FOOTER ***************************************/
+.mrlogo{ height: 65px; margin-top: 20px; padding: 0; }
+
+#footer{ display: none; }
+/*************************************** /footer *************************************/
+
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Dispositivos com tela de retina                                   */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+
+/*************************************** HEADER ***************************************/
+/*************************************** /header ***************************************/
+
+
+/*************************************** HOME ******************************************/
+/*************************************** /home *****************************************/
+
+
+/*************************************** FOOTER ***************************************/
+/*************************************** /footer *************************************/
+
+}
+
+
+/*
+	END SITE STYLE
+*/
+
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Colorbox                                                          */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden}#cboxWrapper{max-width:none}#cboxOverlay{position:fixed;width:100%;height:100%}#cboxMiddleLeft,#cboxBottomLeft{clear:left}#cboxContent{position:relative}#cboxLoadedContent{overflow:auto;-webkit-overflow-scrolling:touch}#cboxTitle{margin:0}#cboxLoadingOverlay,#cboxLoadingGraphic{position:absolute;top:0;left:0;width:100%;height:100%}#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}.cboxPhoto{float:left;margin:auto;border:0;display:block;max-width:none;-ms-interpolation-mode:bicubic}.cboxIframe{width:100%;height:100%;display:block;border:0}#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box}#cboxOverlay{background:#ffffff}#colorbox{outline:0}#cboxTopLeft{width:25px;height:25px;background:url(../images/border1.png) no-repeat 0 0}#cboxTopCenter{height:25px;background:url(../images/border1.png) repeat-x 0 -50px}#cboxTopRight{width:25px;height:25px;background:url(../images/border1.png) no-repeat -25px 0}#cboxBottomLeft{width:25px;height:25px;background:url(../images/border1.png) no-repeat 0 -25px}#cboxBottomCenter{height:25px;background:url(../images/border1.png) repeat-x 0 -75px}#cboxBottomRight{width:25px;height:25px;background:url(../images/border1.png) no-repeat -25px -25px}#cboxMiddleLeft{width:25px;background:url(../images/border2.png) repeat-y 0 0}#cboxMiddleRight{width:25px;background:url(../images/border2.png) repeat-y -25px 0}#cboxContent{background:#fff;overflow:hidden}.cboxIframe{background:#fff}#cboxError{padding:50px;border:1px solid #ccc}#cboxLoadedContent{margin-bottom:20px}#cboxTitle{position:absolute;bottom:0;left:0;text-align:center;width:100%;color:#999}#cboxCurrent{display:none !important;position:absolute;bottom:0;left:100px;color:#999}#cboxLoadingOverlay{background:#fff url(../images/loading.gif) no-repeat 5px 5px}#cboxPrevious,#cboxNext,#cboxSlideshow,#cboxClose{border:0;padding:0;margin:0;overflow:visible;width:auto;background:0 0}#cboxPrevious:active,#cboxNext:active,#cboxSlideshow:active,#cboxClose:active{outline:0}#cboxSlideshow{position:absolute;bottom:0;right:42px;color:#444}#cboxPrevious{position:absolute;bottom:0;left:0;color:#444}#cboxNext{position:absolute;bottom:0;left:63px;color:#444}#cboxClose{position:absolute;bottom:0;right:0;display:block;color:#444}.cboxIE #cboxTopLeft,.cboxIE #cboxTopCenter,.cboxIE #cboxTopRight,.cboxIE #cboxBottomLeft,.cboxIE #cboxBottomCenter,.cboxIE #cboxBottomRight,.cboxIE #cboxMiddleLeft,.cboxIE #cboxMiddleRight{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF)}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*	Back to Top 													*/
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#toTop 									{ display:none; text-decoration:none; position:fixed; bottom:10px; right:10px; overflow:hidden; width:51px; height:51px; border:none; text-indent:-999px; background:url(../images/ui.totop.png) no-repeat left top; }
+#toTopHover 							{ background: url(../images/ui.totop.png) no-repeat left -51px; width:51px; height:51px; display:block; overflow:hidden; float:left; opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0); }
+#toTop:active, #toTop:focus 			{ outline: none }
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*CLASSES STANDARDS													*/
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.link_blocked{ cursor: default }
+.relative{ position: relative }
+.absolute{ position: absolute }
+.fLeft{ float: left }
+.fRight{ float: right }
+.clear{ clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0  }
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility: hidden }
+.clearfix { display:inline }
+* html .clearfix { height: 1% }
+.clearfix { display: block }
+
+
+
+
+
+
+/* TESTE CAROULSEL */
+
+.catalogo {
+
+}
+
+.video {height: 100% !important}
+
+.wrapper {
+				background-color: white;
+				width: 480px;
+				margin: 40px auto;
+				padding: 50px;
+				box-shadow: 0 0 5px #999;
+			}
+
+			.touchArea {
+				position: absolute;
+				background: green;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				z-index: 99999;
+			}
+
+			.list_carousel {
+				background-color: #000;
+				margin: 0;
+				width: 100%;
+				height: 105%;
+				position: relative;
+				display: block;
+				overflow-y: hidden;
+				overflow-x: hidden; 
+			}
+
+			/* UL */
+			.carousel_fotos {
+				height: 100%;
+				width: 99999999px;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: inline-block;
+				position: absolute;
+				margin-left: 0;
+			}
+
+			.list_carousel li {
+				text-align: center;
+				height: 100%;
+				padding: 0;
+				float: left;
+				margin: 0 !important;
+				position: relative;
+				display: inline-block;
+				opacity: 0.3;
+				transition: opacity 0.5s linear 0s;
+			}
+
+			.list_carousel li img {
+				height: 100%;
+				width: 100%;
+			}
+
+			.destaque {
+				opacity: 1 !important;
+				transition: opacity 0.5s linear 0.1s;
+			}
+
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
